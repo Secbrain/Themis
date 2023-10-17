@@ -1,4 +1,4 @@
-# CCS_Themis
+# Themis
 
 ## Requirements
 
@@ -23,3 +23,12 @@ Execute the following command:
 ```bash
 python detect.py
 ```
+
+## Evaluation
+
+By changing the drop rate, we plot the ROC curves of Themis and baselines against 15 types of logo watermarks.
+
+![avatar](./eval/conf.png)
+![avatar](./eval/univ.png)
+![avatar](./eval/text.png)
+
