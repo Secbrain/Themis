@@ -1,4 +1,4 @@
-# Themis
+# ⚖️ Themis
 
 ## Requirements
 
