@@ -16,11 +16,11 @@ np.random.seed(0)
 torch.manual_seed(0)
 
 model_name = ['resnet', 'inception', 'alexnet', 'vgg19', 'squeeze']
-logo_name = ['ACMMM16', 'ACMMM17', 'ACMMM18', 'ACMMM19', 'ACMMM20', 'Berkely', 'Cambridge', 'CMU', 'MIT', 'SU', 'black', 'blue', 'gray', 'green', 'red']
+logo_name = ['AAAI', 'ACM', 'IEEE', 'Springer', 'USENIX', 'Berkely', 'Cambridge', 'CMU', 'MIT', 'SU', 'black', 'blue', 'gray', 'green', 'red']
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--attack_model', type=str, default='squeeze')
-parser.add_argument('--attack_logo', type=str, default='ACMMM16')
+parser.add_argument('--attack_logo', type=str, default='IEEE')
 args = parser.parse_args()
 
 model = torch.load('./model/' + args.attack_model + '_normal.pth')
